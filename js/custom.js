@@ -89,9 +89,49 @@ function theSum(No1,No2 ){
 
 console.log(theSum(2,3));
 
+
+
+//loops
+
+for(var i=0; i<10; i++){
+	console.log(i)
+}
+
+//loops -while
+x = 6
+while (x >10){
+	console.log("On number "+ x)
+	x++;
+}
+
+
+
+
+
+
+//three functions 
+function WhatsYourName (personsName){
+	console.log("your name is "+ personsName);
+}
+
+WhatsYourName ("Darai");
+
+
 //alert function
 function alertAge(SomeonesAge){
 	return alert(SomeonesAge);
 }
 
-alertAge("27 years old");
+
+var visitor = prompt("Please enter your name");
+if (visitor != null) {
+    prompt("Hello " + visitor );
+}
+
+
+var r = prompt("How are you today?");
+if (r == true) {
+    x = "good";
+} else {
+    x = "alright!";
+}
