@@ -45,4 +45,53 @@ console.log(animals[1][0]);
 
 
 
+//logic = the control flow of the program
 
+
+//any TESTS returns a boolean true or false
+if (100 < 10){
+	console.log("Impossible!");
+}
+
+if (100 > 10){
+	console.log("This is a true statement")
+}
+
+//else statement runs only if the statement in the if statement is false
+
+if(100===10){
+	console.log("This is false");
+}
+else{
+	console.log("this is true");
+}
+
+
+/*if you want to run another test before getting to the else statement
+you will want to use else if*/
+
+if (10 ===100){
+	console.log("this will never happen");
+}
+else if (10===10){
+	console.log("this is true, so this will show up in the console");
+}
+else{
+	console.log("We wont get here because our else if statement is true");
+}
+
+
+
+//functions
+function theSum(No1,No2 ){
+	return ((No1+No2)*10);
+}
+
+console.log(theSum(2,3));
+
+//alert function
+function alertAge(SomeonesAge){
+	return alert(SomeonesAge);
+}
+
+alertAge("27 years old");
